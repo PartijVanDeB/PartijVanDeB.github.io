@@ -1,0 +1,264 @@
+header{
+    background-color: gray;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    margin-bottom: 7px;
+}
+
+footer {
+    height: 10%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    color: whitesmoke;
+    overflow: hidden;
+    background-color: grey;
+}
+
+#logo-home {
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 40px;
+}
+
+#container-main-page-filmpje {
+    border: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+#tekst-bovenaan {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#deel-pagina {
+    display: flex;
+    justify-content: space-around;
+}
+
+#over-ons {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+#ons-progamma {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+#contact {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+#zijn-wij-voor-jou {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+#nieuwtjes {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+#main-page {
+    border-radius: 40px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+#container-foto-contact {
+    border: 10px;
+    height: 400px;
+    width: 400px;
+    
+}
+
+#tekst-contact {
+    padding-left: 80px;
+}
+
+#contact-2-elementen {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-contact {
+    position: static;
+}
+
+#vanwege-het-moeilijk-doen {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+}
+
+h6 {
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 30px;
+}
+
+.ons-progamma-nieuwtjes-h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.subcontainer-ons-progamma {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 50px;
+    width: 250px;
+    position: relative;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,1); 
+    border-radius: 10px;
+    transition: transform 2s;
+}
+
+.subcontainer-ons-progamma:hover {
+    transform: scaleX(-1) scaleX(-1);
+}
+
+.container-ons-progamma {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#plaatje-over-ons {
+    width: 90%;
+}
+
+#inzoem-plaatje-over-ons {
+    width: 80%;
+    image-rendering: auto;
+}
+
+#contact-2-elementen {
+    display: flex;
+    flex-direction: row;
+}
+
+#voor-de-achtergrond {
+    background-image: url(resources/feestje.jpg);
+    background-size: cover;
+}
+
+#het-goede-antwoord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.de-opties {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    text-decoration: none;
+}
+
+.optie-1 {
+    margin: 30px;
+    padding: 30px;
+    border-radius: 40px;
+    color: black;
+    text-decoration: none;
+    background-color: antiquewhite;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.optie-2 {
+    margin: 30px;
+    padding: 30px;
+    border-radius: 40px;
+    color: black;
+    text-decoration: none;
+    background-color: antiquewhite;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-kopje {
+    display: flex;
+    justify-content: center;
+}
+
+#gefeliciteert {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#dat-vervelende-niet-werkende-p-element {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.stop-aub-met-moeilijk-doen {
+    color: black;
+    text-decoration: none;
+}
+
+#alle-nieuwtjes-containers {
+    display: flex;
+    flex-direction: row;
+}
